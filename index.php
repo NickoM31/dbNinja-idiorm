@@ -23,5 +23,6 @@ ORM::configure('password', 'root');
 		<span>le <?php echo $article->created_at ?></span>
 	</div>
 <?php endforeach; ?>
+<button><a href="form.php">Formulaire</a></button>
 </body>
 </html>
