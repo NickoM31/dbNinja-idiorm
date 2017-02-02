@@ -16,7 +16,7 @@ ORM::configure('password', 'root');
 	$titre = $_POST['title'];
 	$auteur = $_POST['author'];
 	$comment = $_POST['newArticle'];
-	$dateNow = date('Y-m-d');
+	$dateNow = date('Y-m-d H:i:s');
 	echo $dateNow;
 
 	?>
