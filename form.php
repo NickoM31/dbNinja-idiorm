@@ -6,16 +6,17 @@
 </head>
 <body>
 	<form action="submit_post.php" method="post">
-	<label for="title">Titre
+	<input type="hidden" name="author" value="author">
+		<label for="title">Titre
 			<input type="text" name="title" id="title">
 		</label>
 		<label for="author">Auteur
 			<input type="text" name="author" id="author">
 		</label>
 		<label for="newArticle">Nouvel article</label>
-		<textarea name="newArticle" id="newArticle" cols="30" rows="10">
+		<textarea name="newArticle" id="newArticle" cols="10" rows="2">
 		</textarea>
-		<input type="submit" name="Go">
+		<button type="submit_post">Valider</button>
 	</form>
 </body>
 </html>
